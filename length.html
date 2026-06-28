@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Length</title>
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-navbar">
+  <h2>📏 Length</h2>
+  <a href="index.html" style="color:white;">🏠</a>
+</div>
+
+<div class="converter">
+
+  <input type="number" id="value">
+
+  <select id="from">
+    <option value="meter">Meter</option>
+    <option value="km">Kilometer</option>
+    <option value="cm">Centimeter</option>
+    <option value="mm">Millimeter</option>
+  </select>
+
+  <select id="to">
+    <option value="meter">Meter</option>
+    <option value="km">Kilometer</option>
+    <option value="cm">Centimeter</option>
+    <option value="mm">Millimeter</option>
+  </select>
+
+  <button onclick="convert()">Convert</button>
+
+  <h2 id="result"></h2>
+
+</div>
+
+<script src="length.js"></script>
+</body>
+</html>

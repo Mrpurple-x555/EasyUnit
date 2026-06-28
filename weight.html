@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weight</title>
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-navbar">
+  <h2>⚖️ Weight</h2>
+  <a href="index.html" style="color:white;">🏠</a>
+</div>
+
+<div class="converter">
+
+  <input type="number" id="value">
+
+  <select id="from">
+    <option value="kg">Kilogram</option>
+    <option value="g">Gram</option>
+    <option value="lb">Pound</option>
+  </select>
+
+  <select id="to">
+    <option value="kg">Kilogram</option>
+    <option value="g">Gram</option>
+    <option value="lb">Pound</option>
+  </select>
+
+  <button onclick="convert()">Convert</button>
+
+  <h2 id="result"></h2>
+
+</div>
+
+<script src="weight.js"></script>
+</body>
+</html>
